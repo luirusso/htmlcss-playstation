@@ -89,3 +89,7 @@ h1 {
 .playstation_5 h2 {
     font-size: 40px;
 }
+
+.product_image img {
+    width: 99%;
+}
