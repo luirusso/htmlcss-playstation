@@ -1,4 +1,8 @@
 /* GENERAL STYLES */
+* {
+    font-family: Arial, sans-serif;
+}
+
 .sony_logo {
     height: 11px;
 }
@@ -22,7 +26,7 @@
     right: 0;
     left: 0;
     z-index: 1030;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 /* UTILITIES */
@@ -32,6 +36,12 @@
 
 .padding_top_112 {
     padding-top: 112px;
+}
+
+.orange {
+    background-color: #CD3D0F;
+    color: white;
+    border: none;
 }
 
 .grey {
@@ -49,4 +59,12 @@
 .returnal_text {
     width: 56%;
     top: 285px;
+}
+
+.absolute_container_returnal {
+    top: 294px;
+}
+
+h1 {
+    font-size: 40px;
 }
