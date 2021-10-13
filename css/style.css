@@ -9,6 +9,7 @@
     right: 0;
     left: 0;
     z-index: 1030;
+    background-color: black;
 }
 
 .fixed-top-nav {
@@ -17,5 +18,14 @@
     right: 0;
     left: 0;
     z-index: 1030;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /* UTILITIES */
+.round_site_btn {
+    border-radius: 30px;
+}
+
+.grey {
+    background-color: #363636;
+}
