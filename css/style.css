@@ -3,6 +3,10 @@
     font-family: Arial, sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 .sony_logo {
     height: 11px;
 }
@@ -65,6 +69,7 @@
     top: 294px;
 }
 
-h1 {
-    font-size: 40px;
+.container_thumb img {
+    width: 99%;
+    border-radius: 13px;
 }
