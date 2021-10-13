@@ -1,0 +1,21 @@
+/* GENERAL STYLES */
+.sony_logo {
+    height: 11px;
+}
+
+.fixed-top-sony {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.fixed-top-nav {
+    position: fixed;
+    top: 36px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+/* UTILITIES */
