@@ -94,15 +94,22 @@ h1 {
     width: 99%;
 }
 
+.product_gallery {
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    text-align: center;
+}
+
 .product_gallery img {
     width: 100%;
     opacity: 0.5;
-    cursor: pointer;
-    border-bottom: 3px solid transparent;
 }
 
-.product_gallery img:hover {
+.product_gallery:hover {
     border-bottom: 3px solid #0876CF;
+}
+
+.product_gallery:hover img {
     opacity: 1;
 }
 
