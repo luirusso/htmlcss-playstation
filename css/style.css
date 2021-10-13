@@ -64,6 +64,14 @@ h1 {
     font-size: 20px;
 }
 
+.border_bottom_transparent {
+    border-bottom: 3px solid transparent;
+}
+
+.border_bottom_transparent:hover {
+    border-bottom: 3px solid #0876CF;
+    transition: border 0.4s linear;
+}
 /* MAIN CONTENT */
 .jumbo_container {
     height: 783px;
@@ -114,8 +122,8 @@ h1 {
 }
 
 .product_gallery:hover {
-    border-bottom: 3px solid #0876CF;
-    transition: border 0.4s linear;
+    /* border-bottom: 3px solid #0876CF;
+    transition: border 0.4s linear; */
 }
 
 .product_gallery:hover img {
