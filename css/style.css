@@ -52,6 +52,18 @@ h1 {
     background-color: #363636;
 }
 
+.lightgrey_text {
+    color: #787878;
+}
+
+.blue {
+    color: #0876CF;
+}
+
+.font_size_20 {
+    font-size: 20px;
+}
+
 /* MAIN CONTENT */
 .jumbo_container {
     height: 783px;
@@ -72,4 +84,8 @@ h1 {
 .container_thumb img {
     width: 99%;
     border-radius: 13px;
+}
+
+.playstation_5 h2 {
+    font-size: 40px;
 }
