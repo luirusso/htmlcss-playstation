@@ -43,4 +43,10 @@
     height: 783px;
     background-image: url(../img/jumbo-bg.png);
     background-position-y: 111px;
+    background-position-x: center;
+}
+
+.returnal_text {
+    width: 56%;
+    top: 285px;
 }
