@@ -96,4 +96,16 @@ h1 {
 
 .product_gallery img {
     width: 100%;
+    opacity: 0.5;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.product_gallery img:hover {
+    border-bottom: 3px solid #0876CF;
+    opacity: 1;
+}
+
+.product_gallery.active img {
+    opacity: 1;
 }
