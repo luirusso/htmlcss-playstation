@@ -12,6 +12,10 @@
     background-color: black;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
 .fixed-top-nav {
     position: fixed;
     top: 36px;
@@ -26,6 +30,17 @@
     border-radius: 30px;
 }
 
+.padding_top_112 {
+    padding-top: 112px;
+}
+
 .grey {
     background-color: #363636;
+}
+
+/* MAIN CONTENT */
+.jumbo_container {
+    height: 783px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position-y: 111px;
 }
