@@ -52,6 +52,10 @@ h1 {
     background-color: #363636;
 }
 
+.darkgrey_background {
+    background-color: #1F1F1F;
+}
+
 .lightgrey_text {
     color: #787878;
 }
@@ -146,4 +150,9 @@ h1 {
 
 .product_gallery.active img {
     opacity: 1;
+}
+
+.new_games img {
+    width: 100%;
+    border-radius: 15px;
 }
