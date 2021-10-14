@@ -18,6 +18,13 @@ h1 {
     left: 0;
     z-index: 1030;
     background-color: black;
+    margin: 0;
+    padding-right: 0;
+}
+
+.navbar-brand.sony {
+    margin: 0;
+    padding-right: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -34,8 +41,17 @@ h1 {
 }
 
 /* UTILITIES */
+.cursor_pointer {
+    cursor: pointer;
+}
+
 .round_site_btn {
     border-radius: 30px;
+    border: 5px solid transparent;
+}
+
+.round_site_btn:hover {
+    border-color: rgba(255, 255, 255, 0.63);
 }
 
 .padding_top_112 {
@@ -45,7 +61,6 @@ h1 {
 .orange {
     background-color: #CD3D0F;
     color: white;
-    border: none;
 }
 
 .grey {
@@ -224,7 +239,7 @@ footer .sie_logo {
 
 footer ul {
     list-style: none;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 footer a {
