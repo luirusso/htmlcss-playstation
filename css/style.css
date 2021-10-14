@@ -56,6 +56,10 @@ h1 {
     background-color: #1F1F1F;
 }
 
+.lightgray_background {
+    background-color: #BEBCBB;
+}
+
 .lightgrey_text {
     color: #787878;
 }
@@ -130,7 +134,7 @@ h1 {
 }
 
 .product_image img {
-    width: 99%;
+    width: 100%;
 }
 
 .product_gallery {
@@ -159,5 +163,13 @@ h1 {
 }
 
 .playstation_4 img {
+    width: 100%;
+}
+
+.ps_plus img {
+    width: 65%;
+}
+
+.ps_plus_banner img {
     width: 100%;
 }
