@@ -75,18 +75,36 @@ h1 {
 /* MAIN CONTENT */
 .jumbo_container {
     height: 783px;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.returnal_background {
     background-image: url(../img/jumbo-bg.png);
     background-position-y: 111px;
-    background-position-x: center;
+}
+
+.it_takes_two_background {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position-y: 0px;
+    height: 662px;
 }
 
 .returnal_text {
     width: 56%;
-    top: 285px;
 }
 
 .absolute_container_returnal {
     top: 294px;
+}
+
+.it_takes_two_text {
+    width: 63%;
+}
+
+.absolute_container_it_takes_two {
+    top: 54px;
 }
 
 .container_thumb img {
