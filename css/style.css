@@ -58,12 +58,12 @@ h1 {
     padding-top: 112px;
 }
 
-.orange {
+.orange_btn {
     background-color: #CD3D0F;
     color: white;
 }
 
-.grey {
+.grey_btn {
     background-color: #363636;
 }
 
@@ -73,10 +73,6 @@ h1 {
 
 .lightgray_background {
     background-color: #BEBCBB;
-}
-
-.lightgrey_text {
-    color: #787878;
 }
 
 .darkblue_background {
@@ -91,6 +87,10 @@ h1 {
     color: #0876CF;
 }
 
+.lightgrey_text {
+    color: #787878;
+}
+
 .font_size_20 {
     font-size: 20px;
 }
@@ -103,6 +103,7 @@ h1 {
     border-bottom: 3px solid #0876CF;
     transition: border 0.4s linear;
 }
+
 /* MAIN CONTENT */
 .jumbo_container {
     height: 783px;
@@ -122,7 +123,7 @@ h1 {
     height: 662px;
 }
 
-.returnal_text {
+.returnal_logo {
     width: 56%;
 }
 
@@ -130,7 +131,7 @@ h1 {
     top: 294px;
 }
 
-.it_takes_two_text {
+.it_takes_two_logo {
     width: 63%;
 }
 
@@ -138,8 +139,20 @@ h1 {
     top: 54px;
 }
 
-.container_thumb img {
+.container_thumb img,
+.product_image img,
+.product_gallery img,
+.new_games img,
+.playstation_4 img,
+.ps_plus img,
+.ps_plus_banner img,
+.ps_store img,
+.ps_now img,
+.social_media img {
     width: 100%;
+}
+
+.container_thumb img {
     border-radius: 20px;
     padding: 2px;
     border: 3px solid transparent;
@@ -157,10 +170,6 @@ h1 {
     font-size: 34px;
 }
 
-.product_image img {
-    width: 100%;
-}
-
 .product_gallery {
     cursor: pointer;
     border-bottom: 3px solid transparent;
@@ -168,7 +177,6 @@ h1 {
 }
 
 .product_gallery img {
-    width: 100%;
     opacity: 0.5;
 }
 
@@ -182,36 +190,11 @@ h1 {
 }
 
 .new_games img {
-    width: 100%;
     border-radius: 15px;
-}
-
-.playstation_4 img {
-    width: 100%;
-}
-
-.ps_plus img {
-    width: 65%;
-}
-
-.ps_plus_banner img {
-    width: 100%;
-}
-
-.ps_store img {
-    width: 100%;
-}
-
-.ps_now img {
-    width: 100%;
 }
 
 .ps_now .logo {
     width: 60%;
-}
-
-.social_media img {
-    width: 100%;
 }
 
 .container_social {
