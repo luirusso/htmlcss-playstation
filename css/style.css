@@ -64,6 +64,10 @@ h1 {
     color: #787878;
 }
 
+.darkblue_background {
+    background-color: #161C3B;
+}
+
 .blue {
     color: #0876CF;
 }
@@ -177,4 +181,12 @@ h1 {
 
 .ps_store img {
     width: 100%;
+}
+
+.ps_now img {
+    width: 100%;
+}
+
+.ps_now .logo {
+    width: 60%;
 }
