@@ -1,5 +1,5 @@
 /* GENERAL STYLES */
-* {
+body {
     font-family: Arial, sans-serif;
 }
 
@@ -37,7 +37,7 @@ h1 {
     right: 0;
     left: 0;
     z-index: 1030;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* UTILITIES */
