@@ -124,7 +124,8 @@ h1 {
     transition: border 0.4s linear;
 }
 
-.playstation_5 h2 {
+.playstation_5 h2,
+.playstation_4 h2 {
     font-size: 40px;
 }
 
@@ -155,4 +156,8 @@ h1 {
 .new_games img {
     width: 100%;
     border-radius: 15px;
+}
+
+.playstation_4 img {
+    width: 100%;
 }
