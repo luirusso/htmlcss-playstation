@@ -129,7 +129,8 @@ h1 {
 }
 
 .playstation_5 h2,
-.playstation_4 h2 {
+.playstation_4 h2,
+.ps_store h2 {
     font-size: 40px;
 }
 
@@ -171,5 +172,9 @@ h1 {
 }
 
 .ps_plus_banner img {
+    width: 100%;
+}
+
+.ps_store img {
     width: 100%;
 }
