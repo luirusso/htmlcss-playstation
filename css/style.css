@@ -11,6 +11,7 @@ h1 {
     height: 11px;
 }
 
+/* SONY LOGO FIXED NAV */
 .fixed-top-sony {
     position: fixed;
     top: 0px;
@@ -31,6 +32,7 @@ h1 {
     color: black;
 }
 
+/* PS5 SITE NAV */
 .fixed-top-nav {
     position: fixed;
     top: 36px;
@@ -139,6 +141,7 @@ h1 {
     top: 54px;
 }
 
+/* Since there were many img groups who needed 100% width I grouped them all together here */
 .container_thumb img,
 .product_image img,
 .product_gallery img,
@@ -197,6 +200,7 @@ h1 {
     width: 60%;
 }
 
+/* SOCIAL */
 .container_social {
     width: 100%;
     padding-right: var(--bs-gutter-x,.75rem);
@@ -212,6 +216,7 @@ h1 {
     }
 }
 
+/* FOOTER */
 footer .footer_logo {
     width: 100px;
 }
