@@ -202,18 +202,11 @@ h1 {
 
 /* SOCIAL */
 .container_social {
-    width: 100%;
+    max-width: 540px;
     padding-right: var(--bs-gutter-x,.75rem);
     padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
     margin-left: auto;
-}
-
-/* SOCIAL CONTAINER MEDIA QUERY */
-@media screen and (min-width: 576px) {
-    .container_social {
-        max-width: 550px;
-    }
 }
 
 /* FOOTER */
