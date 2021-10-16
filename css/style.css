@@ -53,6 +53,10 @@ h1 {
 }
 
 .round_site_btn:hover {
+    box-shadow: inset 0 0 10px #ffffff;
+}
+
+.round_site_btn.light:hover {
     box-shadow: inset 0 0 10px #000000;
 }
 
