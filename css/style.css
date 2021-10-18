@@ -148,7 +148,6 @@ h1 {
 /* Since there were many img groups who needed 100% width I grouped them all together here */
 .container_thumb img,
 .product_image img,
-.product_gallery img,
 .new_games img,
 .playstation_4 img,
 .ps_plus img,
@@ -185,6 +184,7 @@ h1 {
 
 .product_gallery img {
     opacity: 0.5;
+    width: 75%;
 }
 
 .product_gallery:hover img {
