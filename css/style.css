@@ -192,10 +192,6 @@ h1 {
     transition: opacity 0.4s linear;
 }
 
-.product_gallery.active img {
-    opacity: 1;
-}
-
 .new_games img {
     border-radius: 15px;
 }
